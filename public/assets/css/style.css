@@ -1,0 +1,139 @@
+@import url("modal.css");
+@import url("food-box.css");
+@import url("saved-recipes.css");
+
+/*
+-------HEADER------------------------------
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: aquamarine;
+  height: 60px;
+}
+
+#logo {
+  height: 40px;
+  margin: 10px 0 0 45px;
+}
+
+/*add input and button*/
+
+#add-food-input {
+  margin-top: 15px;
+  /* margin-right: 45px; */
+  border-radius: 0;
+  height: 30px;
+  width: 500px;
+  float: right;
+  background-color: rgb(237, 237, 237);
+  border: none;
+}
+
+#add-food-button {
+  margin-top: 15px;
+  border-radius: 0;
+  float: left;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  /* top: 5px; */
+}
+
+#add-food-image {
+  max-width: 30px;
+}
+
+#add-food-button:hover {
+  opacity: 0.5;
+}
+
+/*end of add button*/
+
+/*
+-------MAIN---------------------------------
+*/
+
+/*search button*/
+
+#search-food-input {
+  margin-top: 45px;
+  margin-left: 45px;
+  border-radius: 0;
+  height: 30px;
+  width: 245px;
+  float: left;
+  background-color: rgb(237, 237, 237);
+  border: none;
+}
+
+#search-food-button {
+  margin-top: 45px;
+  margin-right: 25px;
+  border-radius: 0;
+  float: left;
+  height: 30px;
+}
+
+#search-food-button:hover {
+  opacity: 0.5;
+}
+
+/*
+-------FOOTER---------------------------------
+*/
+
+.footer {
+  bottom: 0;
+  background: rgb(26, 26, 26);
+  height: 50px;
+  width: 100%;
+}
+
+#footer_text {
+  float: left;
+  margin-right: 25px;
+  margin-top: 18px;
+  font-size: 12px;
+  color: rgb(199, 198, 198);
+  font-family: "Roboto", sans-serif;
+}
+
+#sort-box {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+#sortYear-img {
+  height: 30px;
+}
+
+#sortYear-img:hover {
+  opacity: 0.5;
+}
+
+#sortRating-box {
+  margin-left: 30px;
+}
+
+#sortRating-img {
+  height: 30px;
+}
+
+#sortRating-img:hover {
+  opacity: 0.5;
+}
+
+#foods-container {
+  background-image: url("../images/Casa-Manila-Kitchen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
